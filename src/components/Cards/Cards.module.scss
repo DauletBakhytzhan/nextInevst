@@ -1,0 +1,17 @@
+.wrapper {
+  box-shadow: 1px 1px 10px #8d8791;
+}
+
+.imgSlide:hover {
+    animation: nextarrow 1s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes nextarrow {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+    
+  }
+}

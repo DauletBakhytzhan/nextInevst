@@ -1,0 +1,26 @@
+$home-bg-color: #FFFFFF;
+
+
+
+
+.header{
+    color:red;
+}
+
+.text{
+    text-decoration: underline;
+}
+
+.wrapper{
+    
+    background-color: $home-bg-color;
+    max-width: auto;
+    margin: auto;
+    padding: 0 7.5%;
+}
+
+@media screen and (max-width: 1920px) {
+    .wrapper{
+        padding: 0px;
+    }
+}
